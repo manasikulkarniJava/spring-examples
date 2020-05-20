@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<!--    <bean id="student" class="com.manasi.example.beans.Student" >
+        <property name="studentName" value="manasi"/>
+        <property name="id" value="1"/>
+    </bean>-->
+
+    <bean id="student" class="com.manasi.example.beans.Student">
+        <constructor-arg name="studentName" value="manasity" type="java.lang.String"/>
+        <constructor-arg name="id" value="1" type="int"/>
+    </bean>
+
+    <bean id="student1" class="com.manasi.example.beans.Student">
+        <constructor-arg name="studentName" value="manasit" type="java.lang.String"/>
+    </bean>
+</beans>
