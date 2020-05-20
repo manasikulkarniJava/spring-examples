@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+/home/kodtodya/Downloads/Manasi Code/.metadata/.plugins/org.eclipse.jdt.core
-1251462530.index
